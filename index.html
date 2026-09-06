@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Universal Scoreboard — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #0a6cff;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111214;
+      --fg: #f2f2f2;
+      --muted: #a3a3a3;
+      --accent: #5b9dff;
+      --border: #2a2b2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.05rem;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  .contact-box {
+    margin-top: 12px;
+    padding: 16px 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  footer {
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Universal Scoreboard</h1>
+  <p class="subtitle">Support &amp; frequently asked questions</p>
+
+  <h2>Contact</h2>
+  <div class="contact-box">
+    <p>Need help, found a bug, or have a feature request? Email us at:</p>
+    <p><a href="mailto:myworlddiscovered@gmail.com">myworlddiscovered@gmail.com</a></p>
+    <p>We aim to respond within 2–3 business days.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <ul>
+    <li><strong>How do I show the scoreboard on a projector or second screen?</strong><br>
+      Open the Control Panel, then use <em>Open Score Banner Window</em> or <em>Open Projector Window</em> and drag it to your external display.</li>
+    <li><strong>Can I customize team names, colors, and logos?</strong><br>
+      Yes — open Settings from the Control Panel to set team names, colors, fonts, and upload custom logos or images.</li>
+    <li><strong>Can I use my own buzzer or alert sound?</strong><br>
+      Yes — in Sound Alerts settings, choose <em>Upload a custom sound file</em> to replace any of the built-in buzzers.</li>
+    <li><strong>Which sports are supported?</strong><br>
+      Basketball, volleyball, soccer, and badminton (including multi-court setups), with more planned.</li>
+    <li><strong>How do I reset my settings?</strong><br>
+      In Settings, choose <em>Reset All Settings</em> to restore defaults for the current sport, or <em>Reset Everything</em> to start fresh.</li>
+  </ul>
+
+  <h2>Report a problem</h2>
+  <p>Please include your macOS version, the app version, and steps to reproduce the issue when you email us — it helps us fix things faster.</p>
+
+  <footer>
+    &copy; 2026 My World Discovered. All rights reserved.
+  </footer>
+</main>
+</body>
+</html>
